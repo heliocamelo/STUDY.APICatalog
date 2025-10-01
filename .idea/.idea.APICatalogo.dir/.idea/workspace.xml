@@ -9,20 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5f3a9fb-ad56-4520-a515-774613b97aac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.APICatalogo.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APICatalogo.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APICatalogo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/APICatalogo.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/APICatalogo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/APICatalogo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net8.0/APICatalogo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net8.0/APICatalogo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/APICatalogo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/APICatalogo.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/APICatalogo.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/APICatalogo.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/APICatalogo.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/APICatalogo.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/APICatalogo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/APICatalogo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/APICatalogo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/APICatalogo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/APICatalogo.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/APICatalogo.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/ref/APICatalogo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/ref/APICatalogo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/refint/APICatalogo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/refint/APICatalogo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ProdutosController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/ProdutosController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +90,7 @@
       <updated>1759252667888</updated>
       <workItem from="1759252673852" duration="1225000" />
       <workItem from="1759254327734" duration="1913000" />
-      <workItem from="1759341526484" duration="648000" />
+      <workItem from="1759341526484" duration="965000" />
     </task>
     <servers />
   </component>
