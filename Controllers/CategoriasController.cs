@@ -45,5 +45,20 @@ public class CategoriasController : ControllerBase
         return new CreatedAtRouteResult("ObterCategoria",
             new { id = categoria.CategoriaId }, categoria);
     }
+
+    [HttpPut("{id:int}")]
+    public ActionResult Put(int id, Categoria categoria)
+    {
+        if (id != categoria.CategoriaId)
+        {
+            return BadRequest();
+        }
+
+        _context.Entry(categoria).State = EntityState.Modified;
+        _context.SaveChanges();
+
+        return Ok(categoria);
+    }    
+    
     
 }
