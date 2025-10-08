@@ -58,7 +58,22 @@ public class CategoriasController : ControllerBase
         _context.SaveChanges();
 
         return Ok(categoria);
-    }    
-    
+    }
+
+    [HttpDelete]
+    public ActionResult Delete(int id)
+    {
+        var categoria = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);
+
+        if (categoria == null)
+        {
+            return NotFound("Categoria não encontrada...");
+        }
+
+        _context.Categorias.Remove(categoria);
+        _context.SaveChanges();
+
+        return Ok(categoria);
+    }
     
 }
