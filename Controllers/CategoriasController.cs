@@ -13,17 +13,17 @@ public class CategoriasController : ControllerBase
     {
         _context = context;
     }
-
-    [HttpGet]
-    public ActionResult<IEnumerable<Categoria>> Get()
-    {
-        return _context.Categorias.ToList();
-    }
     
     [HttpGet("produtos")]
     public ActionResult<IEnumerable<Categoria>> GetCategoriaProdutos()
     {
         return _context.Categorias.Include(p => p.Produtos).ToList();
+    }
+
+    [HttpGet]
+    public ActionResult<IEnumerable<Categoria>> Get()
+    {
+        return _context.Categorias.ToList();
     }
 
     [HttpGet("{id:int}", Name = "ObterCategoria")]
