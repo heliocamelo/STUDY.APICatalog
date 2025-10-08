@@ -15,8 +15,35 @@ public class CategoriasController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<Categoria>> GetCategoriaProdutos()
+    public ActionResult<IEnumerable<Categoria>> Get()
     {
-        return _context.Categorias.Include(p => p.Produtos).ToList();
+        return _context.Categorias.ToList();
     }
+
+    [HttpGet("{id:int}", Name = "ObterCategoria")]
+    public ActionResult<Categoria> Get(int id)
+    {
+        var categoria = _context.Categorias.FirstOrDefault(c => c.CategoriaId == id);
+
+        if (categoria == null)
+        {
+            return NotFound();
+        }
+
+        return categoria;
+    }
+
+    [HttpPost]
+    public ActionResult Post(Categoria categoria)
+    {
+        if (categoria == null)
+            return BadRequest();
+
+        _context.Categorias.Add(categoria);
+        _context.SaveChanges();
+
+        return new CreatedAtRouteResult("ObterCategoria",
+            new { id = categoria.CategoriaId }, categoria);
+    }
+    
 }
